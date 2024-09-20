@@ -1,0 +1,45 @@
+//font
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar-brand {
+  margin-left: -6px;
+}
+.netflixContainer {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.child {
+  min-width: 250px;
+  flex: 0 0 calc(100% / 7.5); /* larghezza massima elemento */
+  max-width: calc(100% / 7.5);
+}
+
+.child img {
+  object-fit: cover;
+}
+.genres {
+  height: fit-content !important;
+}
+.footer{
+    ul{
+        list-style-type: none;
+    }
+    i{
+        font-size: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+@media (min-width: 992px) {
+    .footer {
+        max-width: 70%;
+    }
+}

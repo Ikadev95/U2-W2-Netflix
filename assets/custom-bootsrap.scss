@@ -1,0 +1,24 @@
+
+@import './scss/functions';
+@import './scss/variables';
+
+$h1-font: 2.027rem;
+$h2-font: 1.802rem;
+$h3-font: 1.602rem;
+$h4-font: 1.424rem;
+$h5-font: 1.266rem;
+$h6-font: 1.125rem;
+
+$new-font-sizes: (
+  '1': $h1-font,
+  '2': $h2-font,
+  '3': $h3-font,
+  '4': $h4-font,
+  '5': $h5-font,
+  '6': $h6-font,
+) ;
+
+$font-sizes: map-merge($font-sizes, $new-font-sizes);
+
+//importo tutto lo stile bootstrap
+@import './scss/bootstrap.scss';
