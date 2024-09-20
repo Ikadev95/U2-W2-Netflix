@@ -4,14 +4,24 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.main {
+  padding-inline: 8%;
+}
+
 @media (min-width: 992px) {
   .main {
     max-width: 40%;
+    padding-inline: 0%;
   }
 }
 .divider {
   border-top: 1px solid #444444;
   margin: 20px 0;
+}
+
+.dividerh1 {
+  border-top: 1px solid #444444;
+  margin-top: -4px;
 }
 
 .dark {
@@ -25,7 +35,7 @@
 #uname {
   background-color: #666666;
   border: none;
-  color: white;
+  color: #ffffff;
   padding-left: 12px;
   padding-block: 5px;
   width: 100%;
@@ -45,5 +55,27 @@ input[type=checkbox] {
 
 input[type=checkbox]:checked {
   background-color: black;
-  border-color: white;
+  border-color: #a0a0a0;
+}
+
+.h4 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.textColor {
+  color: #a0a0a0;
+}
+
+label {
+  font-size: 13px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.button {
+  color: #a0a0a0;
+  border: #a0a0a0 1px solid;
 }/*# sourceMappingURL=p-style.css.map */
