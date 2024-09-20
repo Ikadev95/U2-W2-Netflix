@@ -43,3 +43,9 @@
         max-width: 70%;
     }
 }
+.dark{
+    background-color: black;
+  }
+  .dropdown-toggle::after{
+    color: white;
+  }

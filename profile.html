@@ -12,7 +12,7 @@
 <body>
     
 <!-- inizio navbar -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary px-1 px-md-4 " data-bs-theme="dark">
+<nav class="navbar navbar-expand-lg px-1 px-md-4 dark ">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="./assets/netflix/netflix_logo.png" alt="logo netflix" height="40"></a>
     </div>
@@ -20,7 +20,7 @@
 <!-- fine navbar -->
 
 <!-- inizio main -->
-<main class="bg-black pt-3 pt-lg-5">
+<main class="bg-black pb-4 pt-3 pt-lg-5">
     <div class="container-fluid main text-white">
         <h1>Edit Profile</h1>
         <div class="row mt-4">
@@ -29,25 +29,29 @@
             </div>
             <div class="col-9">
                 <div class="mb-3">
-                    <h2 class="section-title">Strive Student</h2>
+                    <input type="text" id="uname"
+                    name="name"
+                    placeholder="Strive student"
+                    value="Strive Student"
+                    class="section-title"></input>
                   </div>
               
                   <!-- Language Section -->
                   <div class="mb-4">
                     <h4 >Language:</h4>
-                    <select class="form-select w-auto" aria-label="Language selection">
-                      <option selected>English</option>
-                      <option value="1">Spanish</option>
-                      <option value="2">French</option>
-                    </select>
+                    <button class="btn border border-1 rounded-0 py-0 dropdown-toggle text-white genres" data-bs-toggle="dropdown" aria-expanded="false">
+                        English
+                      </button>
                   </div>
               
                   <!-- Maturity Settings Section -->
                   <div class="mb-4">
                     <h4 >Maturity Settings:</h4>
-                    <button >ALL MATURITY RATINGS</button>
+                    <h2 class="badge py-2 px-3 rounded-0">ALL MATURITY RATINGS</h2>
                     <p>Show titles of <strong>all maturity ratings</strong> for this profile.</p>
-                    <button class="btn btn-outline-light btn-sm">EDIT</button>
+                    <button class="btn border border-1 rounded-0 py-0  text-white genres py-1" >
+                        EDIT
+                      </button>
                   </div>
               
                   <!-- Divider -->
@@ -59,18 +63,32 @@
               
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="autoplayNext" checked>
-                      <label class="form-check-label" for="autoplayNext">
+                      <label class="form-check-label ms-2" for="autoplayNext">
                         Autoplay next episode in a series on all devices.
                       </label>
                     </div>
               
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="autoplayPreviews" checked>
-                      <label class="form-check-label " for="autoplayPreviews">
+                      <label class="form-check-label ms-2 " for="autoplayPreviews">
                         Autoplay previews while browsing on all devices.
                       </label>
                     </div>
                   </div>
+            </div>
+        </div>
+
+        <div class="row py-2">
+            <div class="col d-flex gap-3">
+                <button class="btn border border-1 rounded-0 py-0 bg-white genres py-1" >
+                    SAVE
+                  </button>
+                  <button class="btn border border-1 rounded-0 py-0  text-white genres py-1" >
+                    CANCEL
+                  </button>
+                  <button class="btn border border-1 rounded-0 py-0  text-white genres py-1" >
+                    DELETE PROFILE
+                  </button>
             </div>
         </div>
     </div>

@@ -16,3 +16,31 @@
     border-top: 1px solid #444444;
     margin: 20px 0;
   }
+  .dark{
+    background-color: black;
+  }
+.badge{
+    background-color: #313131;
+}
+#uname{
+    background-color: #666666;
+    border: none;
+    color: white;
+    padding-left: 12px;
+    padding-block: 5px;
+    width: 100%;
+}
+input[type="checkbox"] {
+    appearance: none; /* Nasconde l'aspetto predefinito */
+    width: 24px;
+    height: 24px;
+    background-color: black;
+    border: 1px solid #555;
+    border-radius: 0px;
+    cursor: pointer;
+  }
+
+  input[type="checkbox"]:checked {
+    background-color: black;
+    border-color: white;
+  }
