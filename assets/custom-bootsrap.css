@@ -8317,30 +8317,6 @@ textarea.form-control-lg {
   font-size: 1rem !important;
 }
 
-.fs-1 {
-  font-size: calc(1.3277rem + 0.9324vw) !important;
-}
-
-.fs-2 {
-  font-size: calc(1.3052rem + 0.6624vw) !important;
-}
-
-.fs-3 {
-  font-size: calc(1.2852rem + 0.4224vw) !important;
-}
-
-.fs-4 {
-  font-size: calc(1.2674rem + 0.2088vw) !important;
-}
-
-.fs-5 {
-  font-size: calc(1.2516rem + 0.0192vw) !important;
-}
-
-.fs-6 {
-  font-size: 1.125rem !important;
-}
-
 .fst-italic {
   font-style: italic !important;
 }
@@ -11952,21 +11928,6 @@ textarea.form-control-lg {
   }
   .fs-4 {
     font-size: 1.5rem !important;
-  }
-  .fs-1 {
-    font-size: 2.027rem !important;
-  }
-  .fs-2 {
-    font-size: 1.802rem !important;
-  }
-  .fs-3 {
-    font-size: 1.602rem !important;
-  }
-  .fs-4 {
-    font-size: 1.424rem !important;
-  }
-  .fs-5 {
-    font-size: 1.266rem !important;
   }
 }
 @media print {

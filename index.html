@@ -15,9 +15,11 @@
 <nav class="navbar navbar-expand-lg px-1 px-md-4 dark">
     <div class="container-fluid">
       <a class="navbar-brand text-white" href="#"><img src="./assets/netflix/netflix_logo.png" alt="logo netflix" height="40"></a>
+      
       <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
           <li class="nav-item">
@@ -40,10 +42,21 @@
           <i class="bi bi-search"></i>
           <span>KIDS</span>
           <i class="bi bi-bell-fill"></i>
-          <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="./assets/netflix/avatar.png" width="30">
-          </button>
-        </span>
+          <div class="position-relative">
+  
+              <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="./assets/netflix/avatar.png" width="30">
+              </button>
+              
+              <ul class="dropdown-menu dropdown-menu-dark" style="--bs-dropdown-min-width: 5rem;">
+                <li>
+                  <a class="dropdown-item item" href="#">
+                    <img src="./assets/netflix/kids_icon.png" width="30">
+                  </a>
+                </li>
+            </ul>
+        </div>
+
       </div>
     </div>
   </nav>
@@ -58,6 +71,13 @@
         <button class="btn border border-1 rounded-0 py-0 dropdown-toggle text-white genres py-1" data-bs-toggle="dropdown" aria-expanded="false">
           Genres
         </button>
+        <ul class="dropdown-menu dropdown-menu-dark">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Anime</a></li>
+          <li><a class="dropdown-item" href="#">Crime</a></li>
+          <li><a class="dropdown-item" href="#">Kids</a></li>
+          <li><a class="dropdown-item" href="#">Comedy</a></li>
+      </ul>
       </div>
 
       <div class="d-flex side">

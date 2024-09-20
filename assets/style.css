@@ -82,4 +82,8 @@ nav li:nth-child(2) {
 
 small {
   font-size: 12px;
+}
+
+.item {
+  min-width: 5rem !important;
 }/*# sourceMappingURL=style.css.map */
